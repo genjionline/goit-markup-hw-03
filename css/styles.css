@@ -1,0 +1,162 @@
+body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+.main-title {
+    color: #FFFFFF;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07em;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+h2,
+h3 {
+    color: #2E2F42;
+}
+
+.strategy-main-title,
+.team-main-title,
+.portfolio-main-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.strategy-title,
+.portfolio-project {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.strategy-description,
+.team-card-job,
+.portfolio-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.team-card-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.1em;
+}
+
+button {
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.main-logo,
+.bottom-logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.main-logo {
+    color: #4d5ae5;
+}
+
+.main-logo-studio {
+    color: #2e2f42;
+}
+
+.bottom-logo {
+    color: #4D5AE5;
+}
+
+.bottom-logo-studio {
+    color: #F4F4FD;
+}
+
+.main-nav {
+    font-weight: 500;
+}
+
+.contacts {
+    font-style: normal;
+}
+
+.main-nav-item:hover,
+.contacts-link:hover,
+.main-nav-item:focus,
+.contacts-link:focus {
+    color: #404BBF;
+}
+
+.main-nav-item {
+    color: #2E2F42;
+}
+
+.main-nav-item:active {
+    text-decoration: underline;
+}
+
+.solutions {
+    background-color: #2E2F42;
+}
+
+.solutions-order {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.solutions-order:hover,
+.solutions-order:focus {
+    background-color: #404BBF;
+}
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-card {
+    background-color: #FFFFFF;
+}
+
+footer {
+    background-color: #2E2F42;
+}
+
+.bottom-description {
+    color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
