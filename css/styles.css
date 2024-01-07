@@ -1,3 +1,16 @@
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     line-height: 1.5em;
@@ -16,6 +29,12 @@ ol {
     list-style-type: none;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 .main-title {
     color: #FFFFFF;
     font-size: 56px;
@@ -31,6 +50,13 @@ ol {
 h2,
 h3 {
     color: #2E2F42;
+    margin: 0;
+}
+
+.strategy,
+.team,
+.portfolio {
+    padding: 120px 0;
 }
 
 .strategy-main-title,
@@ -42,6 +68,7 @@ h3 {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .strategy-title,
@@ -50,6 +77,8 @@ h3 {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-top: 0;
+    margin-bottom: 8px;
 }
 
 .strategy-description,
@@ -58,6 +87,7 @@ h3 {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin: 0;
 }
 
 .team-card-title {
@@ -67,6 +97,7 @@ h3 {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    padding: 32px 0 8px;
 }
 
 p {
@@ -163,6 +194,8 @@ button {
 
 .team-card {
     background-color: #FFFFFF;
+    padding-bottom: 32px;
+    text-align: center;
 }
 
 footer {
@@ -176,11 +209,9 @@ footer {
 }
 
 .container {
-    max-width: 1440px;
-    padding-left: 156px;
-    padding-right: 156px;
-    margin-left: 0;
-    margin-right: 0;
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 .main-nav,
@@ -197,7 +228,34 @@ nav {
     padding-right: 40px;
 }
 
+.strategy-list,
+.team-list,
+.portfolio-list {
+    display: flex;
+    gap: 24px;
+}
 
+.portfolio-list {
+    flex-wrap: wrap;
+}
+
+.portfolio {
+    padding-bottom: 120px;
+}
+
+.portfolio-list-item {
+    padding-bottom: 32px;
+    border: 1px solid #E7E9FC;
+}
+
+.portfolio-project {
+    padding: 32px 16px 8px;
+    margin: 0;
+}
+
+.portfolio-description {
+    padding: 0 16px;
+}
 
 .bottom-section .container {
     display: flex;
