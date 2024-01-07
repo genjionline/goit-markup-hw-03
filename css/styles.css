@@ -47,8 +47,8 @@ img {
     text-align: center;
     letter-spacing: 0.02em;
     margin: 0 auto;
-    padding-top: 188px;
     padding-bottom: 48px;
+    max-width: 496px;
 }
 
 h2,
@@ -73,6 +73,10 @@ h3 {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     margin-bottom: 72px;
+}
+
+.strategy-list-item {
+    width: calc((100% - 72px) / 4);
 }
 
 .strategy-title,
@@ -136,6 +140,8 @@ button {
 
 .bottom-logo {
     color: #4D5AE5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .bottom-logo-studio {
@@ -173,6 +179,7 @@ button {
 .solutions {
     background-color: #2E2F42;
     height: 600px;
+    padding: 188px 0;
 }
 
 .solutions .container {
@@ -191,6 +198,7 @@ button {
     border: none;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    min-width: 169px;
 }
 
 .solutions-order:hover,
@@ -216,6 +224,7 @@ footer {
     color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin: 0;
 }
 
 .container {
@@ -276,9 +285,11 @@ header .container,
     padding: 0 16px;
 }
 
-.bottom-section .container {
+.bottom-section {
+    padding: 100px 0;
+}
+
+.container {
     display: flex;
     flex-direction: column;
-    padding-top: 100px;
-    padding-bottom: 100px;
 }
