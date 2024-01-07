@@ -76,7 +76,7 @@ h3 {
 }
 
 .strategy-list-item {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .strategy-title,
@@ -214,6 +214,8 @@ button {
     background-color: #FFFFFF;
     padding-bottom: 32px;
     text-align: center;
+    flex-basis: calc((100% - 3 * 24px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 footer {
@@ -238,6 +240,7 @@ footer {
 header .container,
 .nav {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
@@ -261,6 +264,7 @@ header .container,
 .portfolio-list {
     display: flex;
     gap: 24px;
+    padding-left: 0;
 }
 
 .portfolio-list {
