@@ -35,6 +35,10 @@ img {
     height: auto;
 }
 
+.header {
+    border: 1px solid #e7e9fc;
+}
+
 .main-title {
     color: #FFFFFF;
     font-size: 56px;
@@ -123,6 +127,7 @@ button {
 
 .main-logo {
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .main-logo-studio {
@@ -152,8 +157,13 @@ button {
     color: #404BBF;
 }
 
+.contacts-link:not(:last-child) {
+    margin-right: 40px;
+}
+
 .main-nav-item {
     color: #2E2F42;
+    padding: 24px 0;
 }
 
 .main-nav-item:active {
@@ -217,15 +227,24 @@ footer {
 .main-nav,
 .contacts-list,
 header .container,
-nav {
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.main-nav {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .main-nav li:not(:last-child),
 .contacts-list li:not(:last-child) {
-    padding-right: 40px;
+    margin-right: 40px;
+}
+
+.main-nav:last-child {
+    margin-right: 0;
 }
 
 .strategy-list,
