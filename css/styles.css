@@ -290,11 +290,6 @@ header .container,
     padding: 100px 0;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-}
-
 .visually-hidden {
     position: absolute;
     width: 1px;
