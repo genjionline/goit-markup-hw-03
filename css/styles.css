@@ -12,8 +12,12 @@ a {
 }
 
 ul,
-ol {
+ol,
+li {
     list-style-type: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 img {
@@ -34,7 +38,7 @@ img {
     text-align: center;
     letter-spacing: 0.02em;
     margin: 0 auto;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
     max-width: 496px;
 }
 
@@ -157,6 +161,7 @@ button {
 .main-nav-item {
     color: #2E2F42;
     padding: 24px 0;
+    display: block;
 }
 
 .main-nav-item:active {
@@ -217,6 +222,7 @@ footer {
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin: 0;
+    font-size: 16px;
 }
 
 .container {
